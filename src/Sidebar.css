@@ -1,0 +1,45 @@
+.sidebar {
+    background-color: var(--slack-color);
+    border-top: 1px solid #49274b;
+    color: white;
+    max-width: 260px;
+}
+
+.sidebar__header {
+    display: flex;
+    border-bottom: 1px solid #49274b;
+    padding-bottom: 10px;
+    padding: 13px;
+}
+
+.sidebar__info {
+    flex: 1;
+}
+
+.siderbar > hr {
+    border-radius: 1px solid #49274b;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sidebar__header > .MuiSvgIcon-root {
+    padding: 8px;
+    color: #49274b;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 999px;
+}
+
+.sidebar__info > h2 {
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 5px; 
+}
+
+.sidebar__info > h3 > .MuiSvgIcon-root {
+    font-size: 14px;
+    margin-top: 1px;
+    margin-right: 2px;
+    color: green;
+}
+
